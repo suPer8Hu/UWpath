@@ -1,0 +1,58 @@
+Script started on Mon Nov 27 20:04:33 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[J[95m~/Documents/UW-Madison/Fall 2023/CS400/p2 [38;5;50m[1m[38;5;50m% [39m[0m[K[?2004hggit status[?2004l
+On branch backend
+Your branch is up to date with 'origin/backend'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[J[95m~/Documents/UW-Madison/Fall 2023/CS400/p2 [38;5;50m[1m[38;5;50m% [39m[0m[K[?2004hggit log-  -1[?2004l
+[?1h=[33mcommit 9572aa5f627f6bfe3eb3065f2a2e586bea0260b4[m[33m ([m[1;36mHEAD -> [m[1;32mbackend[m[33m, [m[1;31morigin/backend[m[33m)[m[m
+Author: changlin <changlin.hu@wisc.edu>[m
+Date:   Mon Nov 27 20:03:23 2023 -0600[m
+[m
+    Update the 5 junit5 tests and Backend.java file[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[J[95m~/Documents/UW-Madison/Fall 2023/CS400/p2 [38;5;50m[1m[38;5;50m% [39m[0m[K[?2004hmmake clean[?2004l
+rm -f *.class
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[J[95m~/Documents/UW-Madison/Fall 2023/CS400/p2 [38;5;50m[1m[38;5;50m% [39m[0m[K[?2004hlls[?2004l
+Backend.java			DijkstraGraph.java		MapADT.java			ShortestPathInterface.java
+BackendDeveloperTests.java	FrontendInterface.java		PlaceholderGraph.java		campus.dot
+BackendInterface.java		GraphADT.java			PlaceholderMap.java		log
+BaseGraph.java			Makefile			ShortestPathImplementation.java	p2.iml
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[J[95m~/Documents/UW-Madison/Fall 2023/CS400/p2 [38;5;50m[1m[38;5;50m% [39m[0m[K[?2004hmmake runBDTests[1m [0m[0m [?2004l
+javac -cp .:../junit5.jar Backend.java BackendInterface.java BaseGraph.java DijkstraGraph.java GraphADT.java PlaceholderGraph.java PlaceholderMap.java ShortestPathInterface.java BackendDeveloperTests.java FrontendInterface.java MapADT.java
+java -jar ../junit5.jar -cp . -c BackendDeveloperTests
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  └─[0m [36mBackendDeveloperTests[0m [32m✔[0m
+[36m│     ├─[0m [34mtestCase1()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestCase2()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestCase3()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestCase4()[0m [32m✔[0m
+[36m│     └─[0m [34mtestCase5()[0m [32m✔[0m
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+Test run finished after 375 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[J[95m~/Documents/UW-Madison/Fall 2023/CS400/p2 [38;5;50m[1m[38;5;50m% [39m[0m[K[?2004heexit[?2004l
+
+Script done on Mon Nov 27 20:05:14 2023
